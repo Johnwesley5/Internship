@@ -21,6 +21,7 @@ public class Student1{
 	}
     public static void main(String[] args)
     {
+	    //Object for Default constructor
         Student1 s1=new Student1();
         
         System.out.println("Student Rno is "+s1.Rno);
@@ -28,9 +29,12 @@ public class Student1{
         System.out.println("Student Department is "+s1.Department);
         System.out.println("Student Percentage is "+s1.Percentage);
 		
-		Student1 s2 = new Student1(205,"john","IT",75);
-		System.out.println("Paramaterized constructor");
-		System.out.println("Student Rno is "+s2.Rno);
+	    //Object for Parameterized construtor
+	Student1 s2 = new Student1(205,"john","IT",75);
+	    
+	System.out.println("Paramaterized constructor");
+	    
+	System.out.println("Student Rno is "+s2.Rno);
         System.out.println("Student Name is "+s2.Name);
         System.out.println("Student Department is "+s2.Department);
         System.out.println("Student Percentage is "+s2.Percentage);
