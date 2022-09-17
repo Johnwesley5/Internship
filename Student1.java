@@ -1,43 +1,37 @@
-public class Student1{
-    int Rno ;
-    String Name ;
-    String Department;
-    int Percentage;
-	//default constructor
-	Student1(){
-		Rno = 205;
-		Name = "john";
-		Department = "IT";
-		Percentage = 75;
-	}
+public class Student{
+   private int rollno= 205;
+   private String name= john;
+   private String department= IT;
+   private double percentage= 75.36;
+	
 
 	//paramaterized constructor
-	Student1(int id, String Nm,String dp,int score){
-		Rno = id;
-		Name = Nm;
-		Department = dp;
-		Percentage = score;
+	Student(int id, String Nm,String dp,int score){
+		rollno = id;
+		name = Nm;
+		department = dp;
+		percentage = score;
 		
 	}
     public static void main(String[] args)
     {
 	    //Object for Default constructor
-        Student1 s1=new Student1();
+        Student s1=new Student();
         
-        System.out.println("Student Rno is "+s1.Rno);
-        System.out.println("Student Name is "+s1.Name);
-        System.out.println("Student Department is "+s1.Department);
-        System.out.println("Student Percentage is "+s1.Percentage);
+        System.out.println("Student Rno is "+s1.rollno);
+        System.out.println("Student Name is "+s1.name);
+        System.out.println("Student Department is "+s1.department);
+        System.out.println("Student Percentage is "+s1.percentage);
 		
 	    //Object for Parameterized construtor
-	Student1 s2 = new Student1(205,"john","IT",75);
+	Student s2 = new Student(237,"phani","IT",81.28);
 	    
 	System.out.println("Paramaterized constructor");
 	    
-	System.out.println("Student Rno is "+s2.Rno);
-        System.out.println("Student Name is "+s2.Name);
-        System.out.println("Student Department is "+s2.Department);
-        System.out.println("Student Percentage is "+s2.Percentage);
+	System.out.println("Student Rno is "+s2.rollno);
+        System.out.println("Student Name is "+s2.name);
+        System.out.println("Student Department is "+s2.department);
+        System.out.println("Student Percentage is "+s2.percentage);
 		
     }
 }
