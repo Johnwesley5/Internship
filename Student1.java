@@ -4,11 +4,13 @@ public class Student{
    private String department= IT;
    private double percentage= 75.36;
 	
-
+	Student(){
+	}
+	
 	//paramaterized constructor
-	Student(int id, String Nm,String dp,int score){
+	Student(int id, String nm,String dp,double score){
 		rollno = id;
-		name = Nm;
+		name = nm;
 		department = dp;
 		percentage = score;
 		
