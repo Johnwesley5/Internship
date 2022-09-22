@@ -1,7 +1,7 @@
 import java.util.*;
 public class RepeatedChar{
     public static void main(String [] args){
-        String x="AGGRESSIVENESS";
+        String x="AGRESSIVENESS";
         char y[] =x.toCharArray();
         int size=y.length;
 
